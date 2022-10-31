@@ -3,7 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from './App';
 // import Hello from "./components/Hello";
-import Parent from "./components/ContainerSample";
+// import Parent from "./components/ContainerSample";
+import CounterState from "./components/CounterState";
+import CounterReducer from "./components/CounterReducer";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -13,7 +15,9 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello /> */}
-    <Parent />
+    {/* <Parent /> */}
+    <CounterState initialValue={0} />
+    <CounterReducer initialValue={0} />
   </React.StrictMode>
 );
 
