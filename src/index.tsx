@@ -8,7 +8,8 @@ import "./index.css";
 // import CounterReducer from "./components/CounterReducer";
 // import Parent from "./components/MemoSample2";
 // import Parent from "./components/UseCallbackSample";
-import { UseMemoSample } from "./components/UseMemoSample";
+// import { UseMemoSample } from "./components/UseMemoSample";
+import Clock from "./components/Clock";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -21,7 +22,8 @@ root.render(
     {/* <Parent /> */}
     {/* <CounterState initialValue={0} /> */}
     {/* <CounterReducer initialValue={0} /> */}
-    <UseMemoSample />
+    {/* <UseMemoSample /> */}
+    <Clock />
   </React.StrictMode>
 );
 
