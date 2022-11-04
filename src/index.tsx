@@ -4,8 +4,11 @@ import "./index.css";
 // import App from './App';
 // import Hello from "./components/Hello";
 // import Parent from "./components/ContainerSample";
-import CounterState from "./components/CounterState";
-import CounterReducer from "./components/CounterReducer";
+// import CounterState from "./components/CounterState";
+// import CounterReducer from "./components/CounterReducer";
+// import Parent from "./components/MemoSample2";
+// import Parent from "./components/UseCallbackSample";
+import { UseMemoSample } from "./components/UseMemoSample";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -16,8 +19,9 @@ root.render(
     {/* <App /> */}
     {/* <Hello /> */}
     {/* <Parent /> */}
-    <CounterState initialValue={0} />
-    <CounterReducer initialValue={0} />
+    {/* <CounterState initialValue={0} /> */}
+    {/* <CounterReducer initialValue={0} /> */}
+    <UseMemoSample />
   </React.StrictMode>
 );
 
