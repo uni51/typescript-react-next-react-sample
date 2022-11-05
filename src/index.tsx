@@ -9,7 +9,8 @@ import "./index.css";
 // import Parent from "./components/MemoSample2";
 // import Parent from "./components/UseCallbackSample";
 // import { UseMemoSample } from "./components/UseMemoSample";
-import Clock from "./components/Clock";
+// import Clock from "./components/Clock";
+import Parent from "./components/useContextSample";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -19,11 +20,11 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello /> */}
-    {/* <Parent /> */}
+    <Parent />
     {/* <CounterState initialValue={0} /> */}
     {/* <CounterReducer initialValue={0} /> */}
     {/* <UseMemoSample /> */}
-    <Clock />
+    {/* <Clock /> */}
   </React.StrictMode>
 );
 
