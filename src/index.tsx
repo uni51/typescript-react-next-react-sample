@@ -12,7 +12,8 @@ import "./index.css";
 // import Clock from "./components/Clock";
 // import Parent from "./components/UseContextSample";
 // import ImageUploader from "./components/UseRefSample";
-import Parent from "./components/UseImperativeHandleSample";
+// import Parent from "./components/UseImperativeHandleSample";
+import { Input } from "./components/UseDebugValueSample";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -22,12 +23,13 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello /> */}
-    <Parent />
+    {/* <Parent /> */}
     {/* <CounterState initialValue={0} /> */}
     {/* <CounterReducer initialValue={0} /> */}
     {/* <UseMemoSample /> */}
     {/* <Clock /> */}
     {/* <ImageUploader /> */}
+    <Input />
   </React.StrictMode>
 );
 
